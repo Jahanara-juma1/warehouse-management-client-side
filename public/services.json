@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "New Vostro 3510 Laptop",
+        "price": "70,000",
+        "description": "Laptop featuring 10th Gen Intel® Core™ processors has the essentials to keep your data secure.",
+        "img": "https://i.ibb.co/Qvmkyw6/pexels-julien-brion-102061-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Inspiron 14 5410 Laptop",
+        "price": "78,000",
+        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the essentials to keep your data secure.",
+        "img": "https://i.ibb.co/NNqrZjJ/maxim-hopman-Hin-rzh-Od-Ws-unsplash-1.png"
+    },
+    {
+        "id": 3,
+        "name": "Inspiron 2-in-1 Laptop",
+        "price": "90,000",
+        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the essentials to keep your data secure...",
+        "img": "https://i.ibb.co/8bCmpY0/joshua-reddekopp-Gk-FQEOubr-Co-unsplash-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Inspiron 15 5510 Laptop",
+        "price": "66,000",
+        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the Ideal blend of portability and productivity.",
+        "img": "https://i.ibb.co/X2YbYfR/jose-gil-Uar8mh-f0k-A-unsplash-1.png"
+    },
+    {
+        "id": 5,
+        "name": "Inspiron 7510 Laptop",
+        "price": "85,000",
+        "description": "2-in-1 laptop designed to bring your world closer. Features a 4-sided narrow border.",
+        "img": "https://i.ibb.co/pbd1d9f/giorgio-trovato-8kr-X0-Hk-Xw8c-unsplash-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Inspiron 7510 Laptop",
+        "price": "70,000",
+        "description": "Ideal blend of portability and productivity. Featuring 11th Gen Intel® Core™ processors.",
+        "img": "https://i.ibb.co/2vcYVvM/erick-cerritos-i5-UV2-Hp-ITYA-unsplash-1-1.png"
+    },
+    {
+        "id": 7,
+        "name": "XPS 13 Laptop",
+        "price": "65,000",
+        "description": "Optimized for fast and smooth performance to keep you connected. Great for productivity.",
+        "img": "https://i.ibb.co/MGjbN0X/devin-pickell-1e-RS74-C-al-Q-unsplash-1.png"
+    },
+    {
+        "id": 8,
+        "name": "Inspiron 16 Plus",
+        "price": "50,000",
+        "description": "Laptop optimized for fast performance. Featuring 11th Gen Intel® Core™ processors.",
+        "img": "https://i.ibb.co/Rv34L5R/ankush-minda-B5x5-Ay-OV3-XA-unsplash-1.png"
+    }
+]
