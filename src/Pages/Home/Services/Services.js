@@ -14,7 +14,7 @@ const [services, setServices] = useState([]);
     return (
         
         <div className='container'>
-        
+        <div className='row'>
         <h2 className='services-title mt-5'>Our laptops</h2>
          
         <div className='services-container'>
@@ -25,6 +25,7 @@ const [services, setServices] = useState([]);
                   service={service}
                 ></Service>)
             }
+        </div>
         </div>
         </div>
     );

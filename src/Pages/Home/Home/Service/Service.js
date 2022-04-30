@@ -1,14 +1,4 @@
 import React from 'react';
-
-// const Service = ({service}) => {
-//     const {name, img, description, price} = service;
-//     return (
-//         <div>
-//             <h2>This is service: {name}</h2>
-//         </div>
-//     );
-// };
-
 import { useNavigate } from 'react-router-dom';
 import './Service.css';
 const Service = ({service}) => {
