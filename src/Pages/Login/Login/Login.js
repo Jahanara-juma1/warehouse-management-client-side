@@ -96,7 +96,7 @@ import { Button } from 'react-bootstrap';
 import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
@@ -107,7 +107,7 @@ const Login = () => {
     const location = useLocation();
 
     let from = location.state?.from?.pathname || "/";
-
+    let errorElement;
     const [
         signInWithEmailAndPassword,
         user,
@@ -115,9 +115,17 @@ const Login = () => {
         error,
       ] = useSignInWithEmailAndPassword(auth);
 
+      const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
+        auth
+      );
+
       if(user){
         navigate(from, { replace: true });
       }
+
+      if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+    }
 
     const handleSubmit = event =>{
         event.preventDefault();
@@ -131,6 +139,17 @@ const Login = () => {
     const navigateRegister = event => {
         Navigate('/register');
   }
+
+  const resetPassword = async() =>{
+    const email = emailRef.current.value;
+    if(email){
+        await sendPasswordResetEmail(email);
+    // toast('Sent email');
+    // }
+    // else{
+    //     toast('please enter your email address');
+    }
+}
 
     return (
         <div className='container w-50 mx-auto'>
@@ -147,11 +166,14 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                    
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+                    Login
                 </Button>
             </Form>
+            {errorElement}
             <p>Are You New? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+
+            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
 
             <SocialLogin></SocialLogin>
             
