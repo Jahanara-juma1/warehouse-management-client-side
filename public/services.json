@@ -48,19 +48,21 @@
         "img": "https://i.ibb.co/2vcYVvM/erick-cerritos-i5-UV2-Hp-ITYA-unsplash-1-1.png"
     },
     {
-        "id": 7,
-        "documention":  "XPS 13 Laptop",
-        "name": "Thomas",
-        "price": "65,000",
-        "description": "Optimized for fast and smooth performance to keep you connected. Great for productivity.",
-        "img": "https://i.ibb.co/MGjbN0X/devin-pickell-1e-RS74-C-al-Q-unsplash-1.png"
-    },
-    {
-        "id": 8,
-        "documention": "Inspiron 16 Plus",
-        "name": "Charles",
-        "price": "50,000",
-        "description": "Laptop optimized for fast performance. Featuring 11th Gen Intel® Core™ processors.",
-        "img": "https://i.ibb.co/Rv34L5R/ankush-minda-B5x5-Ay-OV3-XA-unsplash-1.png"
-    }
+    "id": 7,
+    "documention":  "XPS 13 Laptop",
+    "name": "Thomas",
+    "price": "65,000",
+    "description": "Optimized for fast and smooth performance to keep you connected. Great for productivity.",
+    "img": "https://i.ibb.co/MGjbN0X/devin-pickell-1e-RS74-C-al-Q-unsplash-1.png"
+},
+{
+    "id": 8,
+    "documention": "Inspiron 16 Plus",
+    "name": "Charles",
+    "price": "50,000",
+    "description": "Laptop optimized for fast performance. Featuring 11th Gen Intel® Core™ processors.",
+    "img": "https://i.ibb.co/Rv34L5R/ankush-minda-B5x5-Ay-OV3-XA-unsplash-1.png"
+}
+    
 ]
+
