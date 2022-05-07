@@ -4,7 +4,7 @@ import './Product.css';
 const Product = () => {
     return (
         <div className='container '>
-            <div className="product-container d-flex">
+            <div className="product-container ">
            <div className='text'>
                <h2 className='text-danger'>Laptop Buying Guide</h2>
 
