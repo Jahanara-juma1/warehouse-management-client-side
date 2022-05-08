@@ -1,10 +1,20 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Warehouse-management-site](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Documentation
+* Header part
+* Slider part
+* Add items
+* Manage service and
+* Blogs part .
 
-In the project directory, you can run:
+## Framework use
+* React Router
+* React Bootstarp
+* Vanella Css
+* react firebase hooke and
+* JWT uses.
 
 ### `npm start`
 
